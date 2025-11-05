@@ -5,7 +5,7 @@ import TextPressure from "../ui/indexM";
 
 export const About = () => {
   return (<div>
-    <p className='font-2xl font-semibold flex flex-col gap-2 pl-8'>hey it's me </p>
+    {/* <p className='font-2xl font-semibold flex flex-col gap-2 pl-8'>hey it's me </p> */}
     <div className="py-4 sm:p-8">
       <div className="flex flex-col gap-2 justify-center text-center">
         <TextPressure
