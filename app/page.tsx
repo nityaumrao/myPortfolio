@@ -1,17 +1,17 @@
-
+import { Abg } from "@/components/ui/background"
+import { Terminal } from "@/components/ui/terminal"
 import Navbar from "@/components/home/Navbar"
 import About from "@/components/home/About"
+import Char from "@/components/home/Char"
+import Background from "@/components/home/Background"
 
 export default function NavigationMenuDemo() {
   return (
     <>
       <Navbar className="bg-emerald-200" />
-      <div style={{ height: "4.5rem" }} /> 
-      <main className="pt-28">
-        <div className="w-full max-w-3xl text-center">
-          <About />
-        </div>
-      </main>
+
+      <Background />
+
     </>
   )
 }

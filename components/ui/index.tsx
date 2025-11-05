@@ -42,7 +42,7 @@ const defaultItemVariant: Variants = {
   visible: {
     x: 0,
     opacity: 1,
-    transition: { duration: 0.7, ease: 'easeOut' },
+    transition: { duration: 0.4, ease: 'easeOut' },
   },
 };
  

@@ -16,6 +16,7 @@ function Navbar({
 }) {
   const [active, setActive] = useState(null);
   const navItems = [
+    { label: "Home", href: "#top" },
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
@@ -29,7 +30,7 @@ function Navbar({
           href="#top"
           className="text-lg font-semibold tracking-wide text-black dark:text-white"
         >
-          NITYA UMRAO
+          NITYAUMRAO
         </a>
         <Menu setActive={setActive}>
           {navItems.map(({ label, href }) => (
