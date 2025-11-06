@@ -23,6 +23,11 @@ export const About = () => {
       </div>
     </div>
     <div className="text-base pl-8 text-muted-foreground">
+      I'm passionate about exploring how technology can make our digital world safer while continuously
+  
+      learning about AI, web technologies, and defensive security.
+    </div>
+    {/* <div className="text-base pl-8 text-muted-foreground">
       <SplittingText
         text="I'm passionate about exploring how technology can make our digital world safer while continuously"
         type="words"
@@ -31,7 +36,7 @@ export const About = () => {
         text=" learning about AI, web technologies, and defensive security."
         type="words"
       />
-    </div>
+    </div> */}
   </div>
   );
 };

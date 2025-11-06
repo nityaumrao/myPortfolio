@@ -1,7 +1,8 @@
 import React from 'react'
 import { Abg } from '../ui/background'
-import About from './About'
+import About from './Text'
 import Char from './Char'
+import SocialButton from './Button'
 
 const Background = () => {
     return (
@@ -18,8 +19,10 @@ const Background = () => {
                 <div className="pt-0 pl-200 absolute bottom-30 right-20 animate-float z-0">
                     <Char />
                 </div>
+                <div className="relative top-20 z-10 flex justify-center mt-20 mb-10">
+                    <SocialButton />
+                </div>
             </Abg>
-        
         </div>
     )
 }
