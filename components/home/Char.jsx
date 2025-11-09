@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "../ui/char";
+import { CardBody, CardContainer, CardItem } from "../ui/card";
 export default function ThreeDCardDemo() {
   return (
     <CardContainer className="inter-var" containerClassName="py-2">

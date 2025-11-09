@@ -13,10 +13,10 @@ type ColourfulTextProps = Omit<React.ComponentProps<'span'>, 'children'> & {
 
 const defaultColors = [
   'rgb(131, 179, 32)',
-  'rgb(47, 195, 106)',
+  'rgba(121, 133, 226, 1)',
   'rgb(42, 169, 210)',
   'rgb(47, 82, 73)',
-  'rgba(11, 203, 174, 0.79)',
+  'rgba(142, 203, 11, 0.79)',
   'rgb(67, 112, 87)',
   'rgb(151, 176, 103)',
   'rgb(227, 222, 97)',
