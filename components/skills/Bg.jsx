@@ -13,9 +13,7 @@ export default function Background() {
         color="#332D56"
         size={0.8}
       />
-      <div className="relative z-10 w-1/2 pl-10">
-        <Card />
-      </div>
+      <Card/>
     </div>
   );
 }
