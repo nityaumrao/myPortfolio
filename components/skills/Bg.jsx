@@ -3,7 +3,7 @@ import Card from "@/components/skills/Card";
 
 export default function Background() {
   return (
-    <div className="relative h-screen bg-[#C4E1E6] overflow-hidden flex items-center">
+    <div className="relative h-screen bg-[#ECFAE5] overflow-hidden flex items-center">
       {/* Interactive particles */}
       <Particles
         className="absolute inset-0"

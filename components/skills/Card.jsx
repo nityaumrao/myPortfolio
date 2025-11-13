@@ -6,7 +6,7 @@ export default function Home() {
     { name: "Express.js", icon: "express.svg" },
     { name: "FastAPI", icon: "fastAPI.svg" },
     { name: "Django", icon: "/django.svg" },
-    { name: "REST", icon: "/rest.svg" },
+    { name: "REST", icon: "/restapi-icon.svg" },
     { name: "GraphQL", icon: "/graphql.svg" },
     { name: "WebRTC", icon: "/webrtc.svg" },
     { name: "gRPC", icon: "/grpc.svg" },
@@ -62,9 +62,9 @@ export default function Home() {
 
 
   return (  
-    <main className="p-8">
-      <div className="flex gap-8">
-        <div className="flex-1">
+    <main className="p-8 ">
+      <div className="flex gap-8 text-black">
+        <div className="flex-1 ">
           <TechCategoryCard title="Backend" items={backendItems} />
         </div>
         <div className="flex-1">

@@ -13,9 +13,9 @@ interface TechCategoryCardProps {
 
 export default function TechCategoryCard({ title, items }: TechCategoryCardProps) {
   return (
-    <div className="bg-black text-white p-6 rounded-2xl border border-gray-800 shadow-lg max-w-md">
-      <h2 className="flex items-center gap-2 text-lg font-semibold mb-4">
-        <span className="inline-block w-5 h-5 bg-white/10 rounded-lg"></span>
+    <div className="bg-[#DDF4E7] text-black p-6 rounded-2xl border shadow-lg max-w-md">
+      <h2 className="flex items-center gap-2 text-lg font-semibold mb-4 text-black">
+        <span className="inline-block w-5 h-5 bg-black/10 rounded-lg"></span>
         {title}
       </h2>
 
@@ -23,7 +23,7 @@ export default function TechCategoryCard({ title, items }: TechCategoryCardProps
         {items.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center hover:bg-white/10 p-2 rounded-xl transition"
+            className="flex flex-col items-center justify-center hover:bg-black/10 p-2 rounded-xl transition"
           >
             <Image
               src={item.icon}
@@ -32,7 +32,7 @@ export default function TechCategoryCard({ title, items }: TechCategoryCardProps
               height={36}
               className="mb-1"
             />
-            <span className="text-xs text-gray-300">{item.name}</span>
+            <span className="text-xs text-black">{item.name}</span>
           </div>
         ))}
       </div>
