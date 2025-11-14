@@ -7,11 +7,11 @@ export default function Home() {
     { name: "FastAPI", icon: "fastAPI.svg" },
     { name: "Django", icon: "/django.svg" },
     { name: "REST", icon: "/restapi-icon.svg" },
-    { name: "GraphQL", icon: "/graphql.svg" },
-    { name: "WebRTC", icon: "/webrtc.svg" },
-    { name: "gRPC", icon: "/grpc.svg" },
-    { name: "Socket.io", icon: "/socketio.svg" },
-    { name: "WebSocket", icon: "/websocket.svg" },
+    // { name: "GraphQL", icon: "/graphql.svg" },
+    // { name: "WebRTC", icon: "/webrtc.svg" },
+    // { name: "gRPC", icon: "/grpc.svg" },
+    // { name: "Socket.io", icon: "/socketio.svg" },
+    // { name: "WebSocket", icon: "/websocket.svg" },
     { name: "Kafka", icon: "/kafka.svg" },
   ];
 
@@ -59,6 +59,15 @@ export default function Home() {
     { name: "Notion", icon: "notion-icon.svg" },
     { name: "Canva", icon: "canva-icon.svg" },
   ];
+  
+  const databaaseItems = [
+    { name: "MongoDB", icon: "mongodb-icon.svg" },
+    { name: "MySQL", icon: "mysql-icon.svg" },
+    { name: "PostgreSQL", icon: "postgresql-icon.svg" },
+    { name: "Redis", icon: "redis-icon.svg" },
+    { name: "SQLite", icon: "sqlite-icon.svg" },
+    { name: "Prisma", icon: "prisma-icon.svg" },
+  ];
 
 
   return (  
@@ -73,6 +82,9 @@ export default function Home() {
         <div>
           <TechCategoryCard title="DevOps" items={devopsItems} />
         </div>
+        <br />
+        
+        
       </div>
     </main>
   );

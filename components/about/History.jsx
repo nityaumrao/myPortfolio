@@ -18,9 +18,9 @@ export function History() {
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "",
-      designation: "Engineering Lead at DataPro",
+        "Coding isn't just a skill for me — it's the one place where the effort actually pays off. No politics, no fluff, just logic. That's why I'm obsessed with it.",
+      name: "Built Different: The Code Edition",
+      designation: "Coding is my chaos, and I thrive in it.",
       src: "https://i.pinimg.com/1200x/56/67/93/5667936906181a6fbe0501b471e2b5bd.jpg",
     },
     {
@@ -31,13 +31,13 @@ export function History() {
       src: "/painting.jpg",
     },
     
-    {
-      quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
-      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+    // {
+    //   quote:
+    //     "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
+    //   name: "Lisa Thompson",
+    //   designation: "VP of Technology at FutureNet",
+    //   src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
 }

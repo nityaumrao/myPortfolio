@@ -13,9 +13,9 @@ interface TechCategoryCardProps {
 
 export default function TechCategoryCard({ title, items }: TechCategoryCardProps) {
   return (
-    <div className="bg-[#DDF4E7] text-black p-6 rounded-2xl border shadow-lg max-w-md">
+    <div className="bg-[#ffffff] text-black p-6 rounded-2xl border shadow-lg max-w-md">
       <h2 className="flex items-center gap-2 text-lg font-semibold mb-4 text-black">
-        <span className="inline-block w-5 h-5 bg-black/10 rounded-lg"></span>
+        <span className="inline-block w-5 h-5 bg-white/10 rounded-lg"></span>
         {title}
       </h2>
 
